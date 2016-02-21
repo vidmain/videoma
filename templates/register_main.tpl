@@ -1,13 +1,13 @@
-<html>
+п»ї<html>
     <head>
-        <title>Videoma - регистрация</title>
+        <title>Videoma - СЂРµРіРёСЃС‚СЂР°С†РёСЏ</title>
     </head>
     <body>
         <form method="GET" action="/register">
-            Логин: <input type="text" size="35" maxlength="32">
+            Р›РѕРіРёРЅ: <input type="text" size="35" maxlength="32">
             Email: <input type="text" size="35" maxlength="64">
-            Пароль: <input type="password" size="35" maxlength="32">
-            Повторите пароль: <input type="password" size="35" maxlength="32">
+            РџР°СЂРѕР»СЊ: <input type="password" size="35" maxlength="32">
+            РџРѕРІС‚РѕСЂРёС‚Рµ РїР°СЂРѕР»СЊ: <input type="password" size="35" maxlength="32">
         </form>
     </body>
 </html>
