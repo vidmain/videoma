@@ -51,6 +51,10 @@ def main():
         return "5 минут, полет нормальный!"
     except:
         return "I am unable to connect to the database"
+    
+@get('/video/:video_id')
+def main():
+    return template('templates/video_main.tpl')
 
 @get('/:name')
 def main(name):
