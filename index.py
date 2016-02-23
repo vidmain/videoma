@@ -54,7 +54,7 @@ def main():
     
 @get('/video/<video_id>')
 def main(video_id):
-    return template('templates/video_main.tpl')
+    return template('templates/video_main.tpl', video_id=video_id)
 
 """@get('/:name')
 def main(name):
