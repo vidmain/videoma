@@ -56,10 +56,10 @@ def main():
 def main(video_id):
     return template('templates/video_main.tpl')
 
-@get('/:name')
+"""@get('/:name')
 def main(name):
     return 'Page: ' + name
-
+"""
 
 debug(True)
 application = default_app()
