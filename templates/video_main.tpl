@@ -4,7 +4,7 @@
     </head>
     <body>
         <video>
-            <source src="qwerty123456.webm" type='video/webm; codecs="vp8, vorbis"' />
+            <source src="http://83.220.169.229/qwerty123456.webm" type='video/webm; codecs="vp8, vorbis"' />
         <video>>
     </body>
 </html>
