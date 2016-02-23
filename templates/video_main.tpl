@@ -4,7 +4,7 @@
     </head>
     <body>
         <video>
-            <source src="video_dir/{{video_id}}.webm" type='video/webm; codecs="vp8, vorbis"' />
+            <source src="qwerty123456.webm" type='video/webm; codecs="vp8, vorbis"' />
         <video>>
     </body>
 </html>
