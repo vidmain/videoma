@@ -37,12 +37,12 @@ def main():
         cur = conn.cursor()
 
         # Получаем данные
-        email = request.GET.get('email', '').strip()
-        login = request.GET.get('login', '').strip()
-        password = request.GET.get('password', '').strip()
-        password2 = request.GET.get('password2', '').strip()
-        name = request.GET.get('name', '').strip()
-        birthday = request.GET.get('birthday', '').strip()
+        email = request.POST.get('email', '').strip()
+        login = request.POST.get('login', '').strip()
+        password = request.POST.get('password', '').strip()
+        password2 = request.POST.get('password2', '').strip()
+        name = request.GET.POST('name', '').strip()
+        birthday = request.POST.get('birthday', '').strip()
 
         # Проверяем корректность введенных данных
         if password != password2:
