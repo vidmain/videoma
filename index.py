@@ -26,14 +26,14 @@ def main():
     return output
 
 # Регистрация
-@get('/register', method='POST')
+@get('/register', method='GET')
 def main():
     if request.POST.get('save','').strip():
         cur = conn.cursor()
         email = request.GET.get('email', '').strip()
         login = request.GET.get('login', '').strip()
         password = request.GET.get('password', '').strip()
-        repassword = request.GET.get('repassword', '').strip()
+        repassword = request.GET.get('password2', '').strip()
         if password != repassword:
             return template('templates/register_main.tpl')
         query = """INSERT INTO users (login, password, email, reg_data) VALUES ('%s', '%s', '%s', '1993-12-12')""" % (login, password, email);

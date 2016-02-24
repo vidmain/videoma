@@ -3,7 +3,7 @@
         <title>Videoma - регистрация</title>
     </head>
     <body>
-        <form method="POST" action="/register">
+        <form method="GET" action="/register">
             Логин: <input name='login' type='text' size='35' maxlength='32'>
             Email: <input name='email' type='text' size='35' maxlength='64'>
             Пароль: <input name='password' type='password' size='35' maxlength='32'>
