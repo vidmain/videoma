@@ -10,19 +10,19 @@
   <meta name="generator" content="2015.1.0.342"/>
   <title>Домашняя</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="http://83.220.169.229/site_global.css?131700929"/>
-  <link rel="stylesheet" type="text/css" href="http://83.220.169.229/master_______-a.css?115529568"/>
-  <link rel="stylesheet" type="text/css" href="http://83.220.169.229/index.css?4261811954" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?131700929"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?115529568"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?4261811954" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
   </script>
-  <link rel="stylesheet" href="http://83.220.169.229/flarevideo.css" type="text/css">
-  <link rel="stylesheet" href="http://83.220.169.229/flarevideo.default.css" type="text/css">
-  <script src="http://83.220.169.229/jquery.js" type="text/javascript"></script>
-  <script src="http://83.220.169.229/jquery.ui.slider.js" type="text/javascript"></script>
-  <script src="http://83.220.169.229/jquery.flash.js" type="text/javascript"></script>
-  <script src="http://83.220.169.229/flarevideo.js" type="text/javascript"></script>  
+  <link rel="stylesheet" href="css/flarevideo.css" type="text/css">
+  <link rel="stylesheet" href="css/flarevideo.default.css" type="text/css">
+  <script src="scripts/jquery.js" type="text/javascript"></script>
+  <script src="scripts/jquery.ui.slider.js" type="text/javascript"></script>
+  <script src="scripts/jquery.flash.js" type="text/javascript"></script>
+  <script src="scripts/flarevideo.js" type="text/javascript"></script>  
   <script type="text/javascript" charset="utf-8">
     jQuery(function($){
       fv = $("#video").flareVideo();
@@ -36,7 +36,7 @@
   </script>
   <style type="text/css" media="screen">
     body {
-      background: #27282C url(bg.png) repeat;
+      background: #27282C url(images/bg.png) repeat;
     }
     
     #video {
@@ -52,7 +52,7 @@
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
-   <a class="nonblock nontext clip_frame grpelem" id="u146" href="http://83.220.169.229"><!-- image --><img class="block" id="u146_img" src="http://83.220.169.229/1_primary_logo_on_transparent_167x75.png" alt="" width="195" height="75"/></a>
+   <a class="nonblock nontext clip_frame grpelem" id="u146" href="http://83.220.169.229"><!-- image --><img class="block" id="u146_img" src="images/1_primary_logo_on_transparent_167x75.png" alt="" width="195" height="75"/></a>
    <div class="grpelem" id="u177"><!-- custom html -->
     <form action='search' method='GET'>
 <input type='text' name='search' size='70'><input type='submit' size='20' value='Искать'></form> 
@@ -67,11 +67,11 @@
    if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
 </script>
   <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="http://83.220.169.229/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
 </script>
-  <script src="http://83.220.169.229/museutils.js?4190794036" type="text/javascript"></script>
-  <script src="http://83.220.169.229/whatinput.js?84559013" type="text/javascript"></script>
-  <script src="http://83.220.169.229/jquery.watch.js?349565855" type="text/javascript"></script>
+  <script src="scripts/museutils.js?4190794036" type="text/javascript"></script>
+  <script src="scripts/whatinput.js?84559013" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?349565855" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    $(document).ready(function() { try {
