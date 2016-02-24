@@ -28,19 +28,44 @@ def main():
 # Регистрация
 @get('/register', method='GET')
 def main():
+    return template('templates/register_main.tpl')
+    
+@get('/register/send', , method='POST')
+def main():
     if request.POST.get('save','').strip():
+        # Для работы с бд
         cur = conn.cursor()
+
+        # Получаем данные
         email = request.GET.get('email', '').strip()
         login = request.GET.get('login', '').strip()
         password = request.GET.get('password', '').strip()
-        repassword = request.GET.get('password2', '').strip()
-        if password != repassword:
+        password2 = request.GET.get('password2', '').strip()
+        name = request.GET.get('name', '').strip()
+        birthday = request.GET.get('birthday', '').strip()
+
+        # Проверяем корректность введенных данных
+        if password != password2:
             return template('templates/register_main.tpl')
-        query = """INSERT INTO users (login, password, email, reg_data) VALUES ('%s', '%s', '%s', '1993-12-12')""" % (login, password, email);
+        
+        if len(email) > 64:
+            return template('templates/register_main.tpl')
+        
+        if len(login) > 32:
+            return template('templates/register_main.tpl')
+        
+        if len(name) > 32:
+            return template('templates/register_main.tpl')
+        
+        query = """INSERT INTO users (login, password, email, reg_data, name, birthday)
+                   VALUES ('%s', '%s', '%s', '1993-12-12', '%s', '%s')""" % (login, password, email, );
         res = cur.execute(query)
         conn.close()
     else:
         return template('templates/register_main.tpl')
+        
+        
+        
     
 
 

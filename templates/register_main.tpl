@@ -43,6 +43,7 @@
         Пароль: <input name='password' type='password' size='35' maxlength='32'><br>
         Повторите пароль: <input name='password2' type='password' size='35' maxlength='32'><br>
         Отображаемое имя: <input name='name' type='text' size='35' maxlength='16'><br>
+        <input type='submit' value='Готово'>
       </form></center>
 </div>
       
