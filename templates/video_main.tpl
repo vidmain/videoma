@@ -16,13 +16,13 @@
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
-</script>
-       <link rel="stylesheet" href="stylesheets/flarevideo.css" type="text/css">
-  <link rel="stylesheet" href="stylesheets/flarevideo.default.css" type="text/css">
-  <script src="javascripts/jquery.js" type="text/javascript"></script>
-  <script src="javascripts/jquery.ui.slider.js" type="text/javascript"></script>
-  <script src="javascripts/jquery.flash.js" type="text/javascript"></script>
-  <script src="javascripts/flarevideo.js" type="text/javascript"></script>  
+  </script>
+  <link rel="stylesheet" href="css/flarevideo.css" type="text/css">
+  <link rel="stylesheet" href="css/flarevideo.default.css" type="text/css">
+  <script src="scripts/jquery.js" type="text/javascript"></script>
+  <script src="scripts/jquery.ui.slider.js" type="text/javascript"></script>
+  <script src="scripts/jquery.flash.js" type="text/javascript"></script>
+  <script src="scripts/flarevideo.js" type="text/javascript"></script>  
   <script type="text/javascript" charset="utf-8">
     jQuery(function($){
       fv = $("#video").flareVideo();
