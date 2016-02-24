@@ -32,7 +32,7 @@ def main():
     
 @get('/register/send', method='POST')
 def main():
-    if request.POST.get('save','').strip():
+    if request.POST.get('login','').strip():
         # Для работы с бд
         cur = conn.cursor()
 
@@ -48,13 +48,16 @@ def main():
         if password != password2:
             return template('templates/register_main.tpl')
         
-        if len(email) > 64:
+        if len(email) > 64 and len(email) < 6:
             return template('templates/register_main.tpl')
         
-        if len(login) > 32:
+        if len(login) > 32 and len(login) < 5:
             return template('templates/register_main.tpl')
         
-        if len(name) > 32:
+        if len(name) > 32 and len(name) < 3:
+            return template('templates/register_main.tpl')
+        
+        if len(password) < 6:
             return template('templates/register_main.tpl')
         
         query = """INSERT INTO users (login, password, email, reg_data, name, birthday)
