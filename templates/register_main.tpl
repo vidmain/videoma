@@ -23,32 +23,7 @@
   <script src="/templates/scripts/jquery.ui.slider.js" type="text/javascript"></script>
   <script src="/templates/scripts/jquery.flash.js" type="text/javascript"></script>
   <script src="/templates/scripts/flarevideo.js" type="text/javascript"></script>  
-  <script type="text/javascript" charset="utf-8">
-    jQuery(function($){
-      fv = $("#video").flareVideo();
-      fv.load([
-        {
-          src:  'http://83.220.169.229/{{video_id}}.webm',
-          type: 'video/webm; codecs="vp8, vorbis"'
-        }
-      ]);
-    })
-  </script>
-  <style type="text/css" media="screen">
-    body {
-      background: #27282C url(images/bg.png) repeat;
-    }
-    
-    #video {
-      -webkit-box-shadow: 0 0 20px #000;
-      -moz-box-shadow: 0 0 20px #000;
-      width: 900px;
-      height: 500px;
-      overflow: none;
-      margin: 5% auto;
-    }
-  </style>
-   </head>
+</head>
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
