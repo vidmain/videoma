@@ -37,7 +37,7 @@
       
 <!-- ОСНОВНОЙ КОНТЕНТ -->
 <div class="verticalspacer" id="content">
-    <center><form method="GET" action="/register/send">
+    <center><form method="POST" action="/register/send">
         Логин: <input name='login' type='text' size='35' maxlength='32'><br>
         Email: <input name='email' type='text' size='35' maxlength='64'><br>
         Пароль: <input name='password' type='password' size='35' maxlength='32'><br>
