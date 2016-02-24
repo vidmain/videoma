@@ -36,28 +36,13 @@ def main():
     cur = conn.cursor()
 
     # Получаем данные
-    email = request.POST.get('email', '').strip()
-    login = request.POST.get('login', '').strip()
-    password = request.POST.get('password', '').strip()
-    password2 = request.POST.get('password2', '').strip()
-    name = request.POST.get('name', '').strip()
-    birthday = request.POST.get('birthday', '').strip()
+    email = request.form.get('email').strip()
+    login = request.form.get('login').strip()
+    password = request.form.get('password').strip()
+    password2 = request.form.get('password2').strip()
+    name = request.form.get('name').strip()
+    birthday = request.form.get('birthday').strip()
 
-    # Проверяем корректность введенных данных
-    if password != password2:
-        return 'ОШИБОЧКА %s %s' % (password, password2)
-
-    if len(email) > 64 and len(email) < 6:
-        return 'ОШИБОЧКА %s ' % email
-
-    if len(login) > 32 and len(login) < 5:
-        return 'ОШИБОЧКА %s ' % login
-
-    if len(name) > 32 and len(name) < 3:
-        return 'ОШИБОЧКА %s ' % name
-
-    if len(password) < 6:
-        return 'СЛИШКОМ МАЛЕНЬКИЙ %s %s' % (password, password2)
 
     query = """INSERT INTO users (login, password, email, reg_data, name, birthday)
                VALUES ('%s', '%s', '%s', '1993-12-12', '%s', '%s')""" % (login, password, email, );
