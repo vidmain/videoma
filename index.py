@@ -26,9 +26,9 @@ def main():
     return output
 
 # Регистрация
-@get('/register', method='GET')
+@get('/register', method='POST')
 def main():
-    if request.GET.get('save','').strip():
+    if request.POST.get('save','').strip():
         cur = conn.cursor()
         email = request.GET.get('email', '').strip()
         login = request.GET.get('login', '').strip()
@@ -41,6 +41,8 @@ def main():
         conn.close()
     else:
         return template('templates/register_main.tpl')
+    
+
 
 
 
