@@ -42,8 +42,8 @@
     #video {
       -webkit-box-shadow: 0 0 20px #000;
       -moz-box-shadow: 0 0 20px #000;
-      width: 900px;
-      height: 500px;
+      width: 864px;
+      height: 486px;
       overflow: none;
       margin: 5% auto;
     }
