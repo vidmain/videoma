@@ -63,11 +63,11 @@
 <!-- ОСНОВНОЙ КОНТЕНТ -->
 <div class="verticalspacer" id="content">
     <center><form method="GET" action="/register">
-        Логин: <input name='login' type='text' size='35' maxlength='32'>
-        Email: <input name='email' type='text' size='35' maxlength='64'>
-        Пароль: <input name='password' type='password' size='35' maxlength='32'>
-        Повторите пароль: <input name='password2' type='password' size='35' maxlength='32'>
-        Отображаемое имя: <input name='name' type='text' size='35' maxlength='16'>
+        Логин: <input name='login' type='text' size='35' maxlength='32'><br>
+        Email: <input name='email' type='text' size='35' maxlength='64'><br>
+        Пароль: <input name='password' type='password' size='35' maxlength='32'><br>
+        Повторите пароль: <input name='password2' type='password' size='35' maxlength='32'><br>
+        Отображаемое имя: <input name='name' type='text' size='35' maxlength='16'><br>
       </form></center>
 </div>
       
