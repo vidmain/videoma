@@ -10,19 +10,19 @@
   <meta name="generator" content="2015.1.0.342"/>
   <title>Домашняя</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="templates/css/site_global.css?131700929"/>
-  <link rel="stylesheet" type="text/css" href="templates/css/master_______-a.css?115529568"/>
-  <link rel="stylesheet" type="text/css" href="templates/css/index.css?4261811954" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="/templates/css/site_global.css?131700929"/>
+  <link rel="stylesheet" type="text/css" href="/templates/css/master_______-a.css?115529568"/>
+  <link rel="stylesheet" type="text/css" href="/templates/css/index.css?4261811954" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
   </script>
-  <link rel="stylesheet" href="templates/css/flarevideo.css" type="text/css">
-  <link rel="stylesheet" href="templates/css/flarevideo.default.css" type="text/css">
-  <script src="templates/scripts/jquery.js" type="text/javascript"></script>
-  <script src="templates/scripts/jquery.ui.slider.js" type="text/javascript"></script>
-  <script src="templates/scripts/jquery.flash.js" type="text/javascript"></script>
-  <script src="templates/scripts/flarevideo.js" type="text/javascript"></script>  
+  <link rel="stylesheet" href="/templates/css/flarevideo.css" type="text/css">
+  <link rel="stylesheet" href="/templates/css/flarevideo.default.css" type="text/css">
+  <script src="/templates/scripts/jquery.js" type="text/javascript"></script>
+  <script src="/templates/scripts/jquery.ui.slider.js" type="text/javascript"></script>
+  <script src="/templates/scripts/jquery.flash.js" type="text/javascript"></script>
+  <script src="/templates/scripts/flarevideo.js" type="text/javascript"></script>  
   <script type="text/javascript" charset="utf-8">
     jQuery(function($){
       fv = $("#video").flareVideo();
@@ -52,7 +52,7 @@
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
-   <a class="nonblock nontext clip_frame grpelem" id="u146" href="http://83.220.169.229"><!-- image --><img class="block" id="u146_img" src="templates/images/1_primary_logo_on_transparent_167x75.png" alt="" width="195" height="75"/></a>
+   <a class="nonblock nontext clip_frame grpelem" id="u146" href="http://83.220.169.229"><!-- image --><img class="block" id="u146_img" src="//templates/images/1_primary_logo_on_transparent_167x75.png" alt="" width="195" height="75"/></a>
    <div class="grpelem" id="u177"><!-- custom html -->
     <form action='search' method='GET'>
 <input type='text' name='search' size='70'><input type='submit' size='20' value='Искать'></form> 
@@ -67,11 +67,11 @@
    if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
 </script>
   <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="templates/scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+   window.jQuery || document.write('\x3Cscript src="/templates/scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
 </script>
-  <script src="templates/scripts/museutils.js?4190794036" type="text/javascript"></script>
-  <script src="templates/scripts/whatinput.js?84559013" type="text/javascript"></script>
-  <script src="templates/scripts/jquery.watch.js?349565855" type="text/javascript"></script>
+  <script src="/templates/scripts/museutils.js?4190794036" type="text/javascript"></script>
+  <script src="/templates/scripts/whatinput.js?84559013" type="text/javascript"></script>
+  <script src="/templates/scripts/jquery.watch.js?349565855" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    $(document).ready(function() { try {

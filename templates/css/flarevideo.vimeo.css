@@ -43,7 +43,7 @@
   width: 12px;
   height: 12px;
   text-indent: -5000px;
-  background: url(templates/images/vimeo/full-screen.png) no-repeat center center;
+  background: url(/templates/images/vimeo/full-screen.png) no-repeat center center;
 }
 
 .flareVideo .controls .volume {
@@ -101,12 +101,12 @@
 
 .flareVideo .controls .pause {
   display: none;
-  background-image: url(templates/images/vimeo/pause.png);
+  background-image: url(/templates/images/vimeo/pause.png);
 }
 
 .flareVideo .controls .play {
   display: block;
-  background-image: url(templates/images/vimeo/play.png);
+  background-image: url(/templates/images/vimeo/play.png);
 }
 
 .flareVideo.playing .controls .play {

@@ -33,13 +33,13 @@
 
 .flareVideo .controls ::-webkit-slider-thumb {
   -khtml-appearance: none; 
-  background: url(templates/images/spotify/thumb.png) no-repeat; 
+  background: url(/templates/images/spotify/thumb.png) no-repeat; 
   width: 9px; 
   height: 8px;  
 }
 
 .flareVideo .controls .ui-slider-handle { 
-  background: url(templates/images/spotify/thumb.png) no-repeat; 
+  background: url(/templates/images/spotify/thumb.png) no-repeat; 
   width: 9px; 
   height: 8px;
 }
@@ -52,7 +52,7 @@
   width: 16px;
   height: 16px;
   text-indent: -5000px;
-  background: url(templates/images/spotify/full-screen.png) no-repeat center center;
+  background: url(/templates/images/spotify/full-screen.png) no-repeat center center;
   
   /* TODO */
   display: none;
@@ -70,7 +70,7 @@
 .flareVideo .controls .volume .volMin {
   width: 9px;
   height: 21px;
-  background: url(templates/images/spotify/vol-min.png) no-repeat center center;
+  background: url(/templates/images/spotify/vol-min.png) no-repeat center center;
   
   /* TODO */
   display: none;
@@ -79,7 +79,7 @@
 .flareVideo .controls .volume .volMax {
   width: 9px;
   height: 21px;
-  background: url(templates/images/spotify/vol-max.png) no-repeat center center;
+  background: url(/templates/images/spotify/vol-max.png) no-repeat center center;
 }
 
 .flareVideo .controls .volume .volRange {
@@ -104,12 +104,12 @@
 
 .flareVideo .controls .pause {
   display: none;
-  background: url(templates/images/spotify/pause.png) no-repeat center center;
+  background: url(/templates/images/spotify/pause.png) no-repeat center center;
 }
 
 .flareVideo .controls .play {
   display: block;
-  background: url(templates/images/spotify/play.png) no-repeat center center;  
+  background: url(/templates/images/spotify/play.png) no-repeat center center;  
 }
 
 .flareVideo.playing .controls .play {
