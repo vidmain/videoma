@@ -52,7 +52,7 @@
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
-   <a class="nonblock nontext clip_frame grpelem" id="u146" href="http://83.220.169.229"><!-- image --><img class="block" id="u146_img" src="//templates/images/1_primary_logo_on_transparent_167x75.png" alt="" width="195" height="75"/></a>
+   <a class="nonblock nontext clip_frame grpelem" id="u146" href="http://83.220.169.229"><!-- image --><img class="block" id="u146_img" src="/templates/images/1_primary_logo_on_transparent_167x75.png" alt="" width="195" height="75"/></a>
    <div class="grpelem" id="u177"><!-- custom html -->
     <form action='search' method='GET'>
 <input type='text' name='search' size='70'><input type='submit' size='20' value='Искать'></form> 
