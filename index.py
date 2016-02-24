@@ -27,18 +27,12 @@ def main():
 
 # Регистрация
 @get('/register')
-def main():
+def register():
     return template('templates/register_main.tpl')
     
 @post('/register')
-def main():
-    # Для работы с бд
-    cur = conn.cursor()
-
-    # Получаем данные
-    email = request.form.get('email').strip()
-
-        
+def do_register():
+    pass  
     
 
 
