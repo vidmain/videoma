@@ -2,7 +2,7 @@
 import os
 os.chdir(os.path.dirname(__file__))
 
-from bottle import get, default_app, debug, template, request
+from bottle import get, post, default_app, debug, template, request
 import psycopg2
 
 try:
