@@ -37,18 +37,7 @@ def main():
 
     # Получаем данные
     email = request.form.get('email').strip()
-    login = request.form.get('login').strip()
-    password = request.form.get('password').strip()
-    password2 = request.form.get('password2').strip()
-    name = request.form.get('name').strip()
-    birthday = request.form.get('birthday').strip()
 
-
-    query = """INSERT INTO users (login, password, email, reg_data, name, birthday)
-               VALUES ('%s', '%s', '%s', '1993-12-12', '%s', '%s')""" % (login, password, email, );
-    res = cur.execute(query)
-    conn.close()
-        
         
     
 
