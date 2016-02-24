@@ -36,7 +36,7 @@ def do_register():
     cur = conn.cursor()
 
     # Получаем данные
-    email = request.form.get('email').strip()
+    email = request.forms.get('email')
 
     
 
