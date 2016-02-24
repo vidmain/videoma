@@ -46,19 +46,19 @@ def main():
 
         # Проверяем корректность введенных данных
         if password != password2:
-            return template('templates/register_main.tpl')
+            return template('ОШИБОЧКА')
         
         if len(email) > 64 and len(email) < 6:
-            return template('templates/register_main.tpl')
+            return template('ОШИБОЧКА')
         
         if len(login) > 32 and len(login) < 5:
-            return template('templates/register_main.tpl')
+            return template('ОШИБОЧКА')
         
         if len(name) > 32 and len(name) < 3:
-            return template('templates/register_main.tpl')
+            return template('ОШИБОЧКА')
         
         if len(password) < 6:
-            return template('templates/register_main.tpl')
+            return template('ОШИБОЧКА')
         
         query = """INSERT INTO users (login, password, email, reg_data, name, birthday)
                    VALUES ('%s', '%s', '%s', '1993-12-12', '%s', '%s')""" % (login, password, email, );
