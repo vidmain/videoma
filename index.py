@@ -46,19 +46,19 @@ def main():
 
         # Проверяем корректность введенных данных
         if password != password2:
-            return template('ОШИБОЧКА')
+            return 'ОШИБОЧКА'
         
         if len(email) > 64 and len(email) < 6:
-            return template('ОШИБОЧКА')
+            return 'ОШИБОЧКА'
         
         if len(login) > 32 and len(login) < 5:
-            return template('ОШИБОЧКА')
+            return 'ОШИБОЧКА'
         
         if len(name) > 32 and len(name) < 3:
-            return template('ОШИБОЧКА')
+            return 'ОШИБОЧКА'
         
         if len(password) < 6:
-            return template('ОШИБОЧКА')
+            return 'ОШИБОЧКА'
         
         query = """INSERT INTO users (login, password, email, reg_data, name, birthday)
                    VALUES ('%s', '%s', '%s', '1993-12-12', '%s', '%s')""" % (login, password, email, );
