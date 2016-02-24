@@ -30,7 +30,7 @@ def main():
 def main():
     return template('templates/register_main.tpl')
     
-@get('/register/send', , method='POST')
+@get('/register/send', method='POST')
 def main():
     if request.POST.get('save','').strip():
         # Для работы с бд
